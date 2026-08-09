@@ -126,13 +126,9 @@ header {
     text-decoration: none;
 }
 
-.logo-symbol {
-    font-size: 3.5em;
-    color: var(--color-accent);
-    font-family: serif;
-    line-height: 1;
-    display: flex;
-    align-items: center;
+.logo-symbol-svg {
+    width: 100px;
+    height: 40px;
 }
 
 .logo-text {
@@ -140,9 +136,6 @@ header {
     font-size: 1.5rem;
     color: var(--color-primary);
     letter-spacing: 2px;
-    line-height: 1;
-    display: flex;
-    align-items: center;
 }
 
 /* Navigation */
